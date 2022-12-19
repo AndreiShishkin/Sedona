@@ -12,13 +12,19 @@
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Главная</a>
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Главная</span>
+          </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">О Седоне</a>
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">О Седоне</span>
+          </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Гостиницы</a>
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Гостиницы</span>
+          </a>
         </li>
       </ul>
       <ul class="navigation-list user-navigation">
@@ -41,67 +47,114 @@
   </header>
   <main class="main-index">
     <header class="main-header">
-      <h1 class="visually-hidden">Город Седона</h1>
+      <h1 class="visually-hidden">Туристический город Седона</h1>
       <img class="welcome-logo" src="" alt="Добро пожаловать на сайт посвященный городу Седона">
     </header>
-    <section class="about-sedona">
-      <h2 class="visually-hidden">Описание города Седона</h2>
+    <section class="advantage">
+      <h2 class="visually-hidden">Преимущества Седоны</h2>
       <p class="description-sedona">Седона - небольшой городок в Аризоне, заслуживающий большего</p>
       <p class="sedona-is-better">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <ol class="advantage-list">
+        <li class="advantage-item">
+          <div class="reason-block position-first-reason">
+            <h3 class="reason-name">Настоящий городок</h3>
+            <p class="reason-number">№1</p>
+            <p class="reason-description">Седона - не атракцион для туристов, там течет своя жизнь</p>
+          </div>
+          <img class="image-sedona" src="#" alt="Город Седона">
+          <ul class="services-list">
+            <li class="services-item-home">
+              <h4 class="services-title">Жилье</h4>
+              <p class="services-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </li>
+            <li class="services-item-eat">
+              <h4 class="services-title">Еда</h4>
+              <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="services-item-souvenir">
+              <h4 class="services-title">Сувениры</h4>
+              <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
+            </li>
+          </ul>
+        </li>
+        <li class="advantage-item">
+          <div class="reason-block position-second-reason">
+            <h3 class="reason-name">Там есть мост дьявола</h3>
+            <p class="reason-number">№2</p>
+            <p class="reason-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
+          <img src="#" alt="Мост дьявола">
+        </li>
+        <li class="advantage-item">
+          <div class="reason-block">
+            <h3 class="reason-name">Небольшая площадь</h3>
+            <p class="reason-number">№3</p>
+            <p class="reason-description">Все достопримечательности находятся очень близко</p>
+          </div>
+        </li>
+        <li class="advantage-item">
+          <div class="reason-block">
+            <h3 class="reason-name">Красивая дорога</h3>
+            <p class="reason-number">№4</p>
+            <p class="reason-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+        </li>
+        <li class="advantage-item">
+          <div class="reason-block">
+            <h3 class="reason-name">Мало туристов</>
+              <p class="reason-number">№5</p>
+              <p class="reason-description">Большинство едет в Гранд Каньон и толпится там</p>
+          </div>
+        </li>
+      </ol>
     </section>
-    <section class="reasons">
-      <div class="first-reason">
-        <h2 class="visually-hidden">Первая причина</h2>
-        <div class="reason-block position-first-reason">
-          <p class="reason-name">Настоящий городок</p>
-          <h3 class="reason-number">№1</h3>
-          <p class="reason-description">Седона - не атракцион для туристов, там течет своя жизнь</p>
-        </div>
-      </div>
-      <ul class="services-list">
-        <li class="services-item-home">
-          <h4 class="services-title">Жилье</h4>
-          <p class="services-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-        </li>
-        <li class="services-item-eat">
-          <h4 class="services-title">Еда</h4>
-          <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="services-item-souvenir">
-          <h4 class="services-title">Сувениры</h4>
-          <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
-        </li>
-      </ul>
-      <div class="second-reason">
-        <h2 class="visually-hidden">Вторая причина</h2>
-        <div class="reason-block position-second-reason">
-          <p class="reason-name">Там есть мост дьявола</p>
-          <h3 class="reason-number">№2</h3>
-          <p class="reason-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-        </div>
-      </div>
-      <!--3-5 причины, список-->
-      <div class="reasons-list">
-        <div class="reason-block">
-          <h2 class="visually-hidden">Третья причина</h2>
-          <p class="reason-name">Небольшая площадь</p>
-          <h3 class="reason-number">№3</h3>
-          <p class="reason-description">Все достопримечательности находятся очень близко</p>
-        </div>
-        <div class="reason-block">
-          <h2 class="visually-hidden">Четвертая причина</h2>
-          <p class="reason-name">Красивая дорога</p>
-          <h3 class="reason-number">№4</h3>
-          <p class="reason-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </div>
-        <div class="reason-block">
-          <h2 class="visually-hidden">Пятая причина</h2>
-          <p class="reason-name">Мало туристов</p>
-          <h3 class="reason-number">№5</h3>
-          <p class="reason-description">Большинство едет в Гранд Каньон и толпится там</p>
-        </div>
-      </div>
+    <section class="search-hotel">
+      <h2 class="visually-hidden">Поиск гостиницы</h2>
+      <p class="interesting-question">Заинтересовались?</p>
+      <p class="hotel-offers">
+        Укажите предполагаемые даты поездки,
+        и мы покажем вам лучшие предложения гостиниц в Седоне
+      </p>
+      <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
     </section>
   </main>
 </body>
+<footer class="page-footer">
+  <section class="mailing-list">
+    <h2 class="subscribe-mailing-list">Подпишитесь на рассылку</h2>
+    <p class="descpription-mailing-list">
+      Только полезная информация и никакого спама,
+      честное бойскаутское!
+    </p>
+    <form action="#" method="POST">
+      <label for="e-mail">E-mail</label>
+      <input class="e-mail-string" type="text" id="e-mail" placeholder="Ваш e-mail">
+      <input class="subscribe-button" type="submit" value="Подписаться">
+    </form>
+  </section>
+  <section class="contact-information">
+    <ul class="social-list">
+      <li class="social-item">
+        <a class="button" href="https://twitter.com/htmlacademy_ru">
+          <span class="visually-hidden">Twitter</span>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="button" href="https://www.facebook.com/htmlacademy">
+          <span class="visually-hidden">Facebook</span>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+          <span>Youtube</span>
+        </a>
+      </li>
+    </ul>
+    <a class="phone-number" href="tel: +78128121212">+7 (812) 812-12-12</a>
+    <a class="developer-logo" href="https://htmlacademy.ru/">
+      <span class="visually-hidden">Разработано html academy</span>
+    </a>
+  </section>
+</footer>
+
 </html>
