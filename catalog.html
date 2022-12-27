@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Каталог</title>
 </head>
 
 <body>
@@ -62,27 +62,27 @@
       </ul>
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Инфраструктура:</legend>
-<ul class="catalog-filter-list">
-  <li class="catalog-filter-item">
-    <label class="control">
-      <input class="visually-hidden control-input" type="checkbox" name="waterpool">
-      <span class="control-mark"></span>
-      <span class="control-label">Бассейн</span>
-    </label>
-  </li>
-  <li class="catalog-filter-item">
-    <label class="control">
-      <input class="visually-hidden control-input" type="checkbox" name="parking">
-      <span class="control-mark"></span>
-      <span class="control-label">Парковка</span>
-    </label>
-    <li class="catalog-filter-item">
-      <label class="control">
-        <input class="visually-hidden control-input" type="checkbox" name="wifi">
-        <span class="control-mark"></span>
-        <span class="control-label">Wi-Fi</span>
-      </label>
-</ul>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="waterpool">
+              <span class="control-mark"></span>
+              <span class="control-label">Бассейн</span>
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="parking">
+              <span class="control-mark"></span>
+              <span class="control-label">Парковка</span>
+            </label>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="wifi">
+              <span class="control-mark"></span>
+              <span class="control-label">Wi-Fi</span>
+            </label>
+        </ul>
       </fieldset>
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Тип жилья:</legend>
@@ -114,6 +114,16 @@
         <legend class="catalog-filter-title">Стоимость,&#8381;:</legend>
         <input type="text" name="less-button" id="less">
       </fieldset>
+    </section>
+    <section class="result-search">
+      <h2 class="visually-hidden">Результаты поиска</h2>
+      <p class="hotel-quantity">Найдено гостиниц: 38</p>
+      <label class="visually-hidden" for="sorting"></label>
+      <select class="select-sorting" type="select" name="sorting-hotel" id="sorting">
+        <option value="popular" selected>Сначала популярные</option>
+        <option value="cheap">Сначала дешевые</option>
+        <option value="expensive">Сначала дорогие</option>
+      </select>
     </section>
   </main>
 </body>
