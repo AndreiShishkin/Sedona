@@ -4,33 +4,36 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: {{projectTitle}}</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-<body>
+<body class="test">
   <header class="page-header">
-    <img class="logo" src="#" alt="Логотип сайта Седона">
+    <a class="logo" href="index.html">
+      <img src="img/logo.svg" height="70" width="139" alt="Логотип сайта Седона">
+    </a>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class="visually-hidden">Главная</span>
+            <span class="navigation-text">Главная</span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="/catalog.html">
+            <span class="navigation-text">О Седоне</span>
           </a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class="visually-hidden">О Седоне</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">Гостиницы</span>
+            <span class="navigation-text">Гостиницы</span>
           </a>
         </li>
       </ul>
       <ul class="navigation-list user-navigation">
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class="visually-hidden">Корзина</span>
+            <span class="visually-hidden">Поиск</span>
           </a>
         </li>
         <li class="navigation-item">
@@ -45,11 +48,14 @@
     </nav>
   </header>
   <main class="main-index">
-    <header class="main-header">
-      <h1 class="visually-hidden">Туристический город Седона</h1>
-      <img class="welcome-logo" src="#" alt="Добро пожаловать на сайт посвященный городу Седона">
-    </header>
+
+    <h1 class="visually-hidden">Туристический город Седона</h1>
+
     <section class="advantage">
+
+      <div class="image-welcome">
+      </div>
+
       <h2 class="visually-hidden">Преимущества Седоны</h2>
       <p class="description-sedona">Седона - небольшой городок в Аризоне, заслуживающий большего</p>
       <p class="sedona-is-better">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -60,7 +66,7 @@
             <p class="reason-number">№1</p>
             <p class="reason-description">Седона - не атракцион для туристов, там течет своя жизнь</p>
           </div>
-          <img class="image-sedona" src="#" alt="Фото города Седона">
+          <img class="image-sedona" src="img/house-of-city.jpg" width="800" height="384" alt="Фото города Седона">
           <ul class="services-list">
             <li class="services-item-home">
               <h4 class="services-title">Жилье</h4>
@@ -82,7 +88,7 @@
             <p class="reason-number">№2</p>
             <p class="reason-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </div>
-          <img src="#" alt="Фото мост дьявола">
+          <img class="image-bridge" src="img/devils-bridge.jpg" height="384" width="800" alt="Фото мост дьявола">
         </li>
         <li class="advantage-item">
           <div class="reason-block">
@@ -117,40 +123,41 @@
       <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
     </section>
     <section class="mailing-list">
-      <h2 class="subscribe-mailing-list">Подпишитесь на рассылку</h2>
-      <p class="descpription-mailing-list">
-        Только полезная информация и никакого спама,
-        честное бойскаутское!
-      </p>
-      <form action="https://echo.htmlacademy.ru/" method="post">
-        <label for="e-mail">E-mail</label>
-        <input class="e-mail-string" type="text" name="e-mail-text" id="e-mail" placeholder="Ваш e-mail">
-        <input class="subscribe-button" type="submit" value="Подписаться">
-      </form>
+      <div class="image-mailing">
+        <h2 class="subscribe-mailing-list">Подпишитесь на рассылку</h2>
+        <p class="descpription-mailing-list">
+          Только полезная информация и никакого спама,
+          честное бойскаутское!
+        </p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <label for="e-mail">E-mail</label>
+          <input class="e-mail-string" type="text" name="e-mail-text" id="e-mail" placeholder="Ваш e-mail">
+          <input class="subscribe-button" type="submit" value="Подписаться">
+        </form>
     </section>
   </main>
   <footer class="page-footer">
-      <ul class="social-list">
-        <li class="social-item">
-          <a class="button" href="https://twitter.com/htmlacademy_ru">
-            <span class="visually-hidden">Twitter</span>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="button" href="https://www.facebook.com/htmlacademy">
-            <span class="visually-hidden">Facebook</span>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
-            <span class="visually-hidden">Youtube</span>
-          </a>
-        </li>
-      </ul>
-      <a class="phone-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="developer-logo" href="https://htmlacademy.ru/">
-        <span class="visually-hidden">Разработано html academy</span>
-      </a>
+    <ul class="social-list">
+      <li class="social-item">
+        <a class="button" href="https://twitter.com/htmlacademy_ru">
+          <span class="visually-hidden">Twitter</span>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="button" href="https://www.facebook.com/htmlacademy">
+          <span class="visually-hidden">Facebook</span>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+          <span class="visually-hidden">Youtube</span>
+        </a>
+      </li>
+    </ul>
+    <a class="phone-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    <a class="developer-logo" href="https://htmlacademy.ru/">
+      <img class="developer-logo" src="/img/logo_htmlacademy.svg" alt="Логотип html academy">
+    </a>
   </footer>
 </body>
 
