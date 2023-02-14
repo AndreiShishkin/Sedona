@@ -31,9 +31,10 @@ body{
   width: 1200px;
 }
 
-.sending-message{
+.sending-message-background{
   background: url("../img/index/blur-background.jpg") no-repeat;
   background-size: cover;
+  background-color: #83B3D3;
   color: #fff;
 }
 
@@ -112,6 +113,15 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  font-family: inherit;
+}
+
+.button-blue{
+  background-color: #83B3D3;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-family: inherit;
 }
 
 .sending-message-title{
@@ -155,3 +165,108 @@ body{
   height: 206px;
 }
 
+.main-header{
+  background: url("/img/catalog/catalog-background.jpg");
+  background-size: cover;
+  background-color: #83B3D3;
+  color: #FFF;
+}
+
+.catalog-header{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link{
+font-size: 16px;
+line-height: inherit;
+}
+
+.catalog-filter-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.control-label{
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.accept-button{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.reset-button{
+  background-color: transparent;
+  border: 0;
+  color:#FFF;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.large-text, .less-text{
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+}
+
+.range-title{
+  font-size: 18px;
+  line-height: 23px;
+  color:#FFF;
+  opacity: 0.3;
+}
+
+.hotel-quantity{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.hotel-button-more, .hotel-button-elected{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.hotel-card-link{
+  text-decoration: none;
+}
+
+.hotel-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000;
+}
+
+.description-card-type, .description-card-defenition{
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 23px;
+}
+
+.hotel-rating{
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.load-more{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.page-item-link{
+  color: #fff;
+text-decoration: none;
+background-color: #83B3D3;
+font-size: 20px;
+font-weight: 700px;
+line-height: 26px;
+}
